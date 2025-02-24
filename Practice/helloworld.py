@@ -46,3 +46,7 @@ def main():
     c_2 + ComplexNumber(3,4)
     c_3 = c_1.add(c_2)
     print(f"c_3: {c_3.real} + {c_3.imag}i")
+    pass
+
+if __name__=="__main__":
+    main()

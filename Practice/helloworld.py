@@ -1,7 +1,5 @@
-import sys
-
-
 class ComplexNumber:
+
     def __init__(self, real, imag):
         self.real = real
         self.imag = imag
@@ -11,7 +9,9 @@ class ComplexNumber:
         im = self.imag + num.imag
         return ComplexNumber(re, im)
 
+
 def main():
+
     c_1 = ComplexNumber(2, 1)
     print(c_1.imag)
     c_2 = ComplexNumber(3, 4)
@@ -19,5 +19,6 @@ def main():
     print(f"c_3:{c_3.real}+{c_3.imag}i")
     pass
 
-if __name__== "__main__": 
-    main() 
+
+if __name__ == "__main__":
+    main()

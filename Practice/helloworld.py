@@ -1,6 +1,7 @@
 import arcpy
 import os
 import sys
+
 class ComplexNumber:
     def __init__(self, real, imag):
         self.real = real

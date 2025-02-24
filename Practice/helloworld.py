@@ -1,3 +1,5 @@
+import sys
+
 
 class ComplexNumber:
     def __init__(self, real, imag):
@@ -10,18 +12,12 @@ class ComplexNumber:
         return ComplexNumber(re, im)
 
 def main():
-    """
-    This is the main function.
-    """
-
-    # Creating complex number instances
-    c_1 = ComplexNumber(9, 5)
-    print(f"Imaginary part of c_1: {c_1.imag}")
-
-    c_2 = ComplexNumber(1, 8)
+    c_1 = ComplexNumber(2, 1)
+    print(c_1.imag)
+    c_2 = ComplexNumber(3, 4)
     c_3 = c_1.add(c_2)
+    print(f"c_3:{c_3.real}+{c_3.imag}i")
+    pass
 
-    print(f"Sum of c_1 and c_2: c_3 = {c_3.real} + {c_3.imag}i")
-
-if __name__ == "__main__":
-    main()
+if __name__== "__main__": 
+    main() 

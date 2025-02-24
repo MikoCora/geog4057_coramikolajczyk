@@ -48,5 +48,4 @@ def main():
     print(f"c_3: {c_3.real} + {c_3.imag}i")
     pass
 
-if __name__=="__main__":
-    main()
+if __name__=="__main"

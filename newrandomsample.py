@@ -19,3 +19,4 @@ fldname = desc["OIDFieldName"]
 sqlfield = arcpy.AddFieldDelimiters(inputfc, fldname)
 sqlexp = f"{sqlfield} IN {tuple(randomlist)}"
 arcpy.Select_analysis(inputfc, outputfc, sqlexp)
+arcpy.AddMessage("{0} random features selected from {1}".format(outcount,inputfc))

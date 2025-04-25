@@ -1,8 +1,6 @@
 import arcpy
 import os
 
-import pip
-
 workspace = "C:/Users/coram/Documents/programing/geog4057/data/Ex7"
 arcpy.env.workspace = workspace
 
@@ -162,7 +160,6 @@ print(f"Min: {min_value}")
 print(f"Max: {max_value}")
 print(f"Mean: {mean_value}")
 print(f"Standard Deviation: {std_value}")
-
 
 
 
